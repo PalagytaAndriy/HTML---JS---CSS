@@ -1,0 +1,43 @@
+.zz{
+    color: aqua;
+    margin: 20px;
+    list-style-image: url("winter_16.png");
+}
+
+.vv{
+    color: rgb(40, 245, 8);
+    margin: 20px;
+    list-style-image: url("spring_16.png");
+}
+
+.ll{
+    color: rgb(240, 240, 11);
+    margin: 20px;
+    list-style-image: url("summer_16.png");
+}
+
+.oo{
+    color: darkorange;
+    margin: 20px;
+    list-style-image: url("autumn_16.png");
+}
+.zz1{
+    color: aqua;
+    margin: 30px;
+    list-style-image: url("winter_16.png");
+}
+.vv1{
+    color: rgb(40, 245, 8);
+    margin: 30px;
+    list-style-image: url("spring_16.png");
+}
+.ll1{
+    color: rgb(240, 240, 11);
+    margin: 30px;
+    list-style-image: url("summer_16.png");
+}
+.oo1{
+    color: darkorange;
+    margin: 30px;
+    list-style-image: url("autumn_16.png");
+}

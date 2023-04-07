@@ -1,0 +1,24 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(204, 150, 209);
+    width: 600px;
+    height: 400px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+hr {
+    width: 100%;
+
+    color: rgb(75, 75, 75);
+} 

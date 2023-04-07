@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <head>
+        <style>
+            #Pole {
+                background-image: url("F-V.jpg");
+                width: 1000px;
+                height: 800px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            #ball {
+                height: 100px;
+                width: 100px;
+                border-radius: 100%;
+                background-color: brown;
+                position: absolute;
+                left: 0;
+                top: 0;
+                transition: all 2s;
+            }
+        </style>
+    </head>
+
+<body>
+
+
+
+    <div id="Pole"> </div>
+    <div id="ball"> </div>
+
+
+    <script>
+        Pole.onclick = function (eve) {
+
+            let PoleCoords = this.getBoundingClientRect();
+
+            let ballCoords = {
+                top: eve.clientY - PoleCoords.top - Pole.clientTop - ball.clientHeight / 2,
+                left: eve.clientX - PoleCoords.left - Pole.clientLeft - ball.clientWidth / 2
+            };
+
+            if (ballCoords.top < 0) ballCoords.top = 0;
+
+            if (ballCoords.left < 0) ballCoords.left = 0;
+
+
+            if (ballCoords.left + ball.clientWidth > Pole.clientWidth) {
+                ballCoords.left = Pole.clientWidth - ball.clientWidth;
+            }
+
+            if (ballCoords.top + ball.clientHeight > Pole.clientHeight) {
+                ballCoords.top = Pole.clientHeight - ball.clientHeight;
+            }
+
+            ball.style.left = ballCoords.left + 'px';
+            ball.style.top = ballCoords.top + 'px';
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.light{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(68, 62, 62);
+    border-radius: 50%;
+    background-color: gray;
+    margin: 5px;
+}
+
+.color{
+    background-color: rgb(97, 226, 37);
+    display: flex;
+    height: 125px;
+    width: 460px;
+}
+
+.color1{
+    border: 1px solid black;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.push{
+    top: 20px;
+    position: relative;
+    background-color: darkorange;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 5px;
+}

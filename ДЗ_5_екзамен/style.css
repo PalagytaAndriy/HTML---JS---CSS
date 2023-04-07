@@ -1,0 +1,228 @@
+body{
+    color: white;
+}
+
+
+.verx {
+    color: white;
+    list-style-type: none;
+    height: 50px;
+    width: 1200px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    background-color: rgba(140, 109, 109, 0.65);
+
+
+}
+.box_oll{
+    border: 1px solid;
+    width: 1200px;
+    background-color: rgba(140, 109, 109, 0.65);
+
+}
+
+
+.verx1 {
+    margin-left: 40px;
+    display: inline;
+    justify-content: space-between;
+    margin-left: avto;
+    position: relative;
+    top: 5px;
+}
+
+.blu {
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    position: relative;
+    color: crimson;
+}
+
+.lii {
+    
+    list-style: none;
+}
+
+.lii > a{
+    color: aliceblue;
+}
+.lii > a > span{
+    color: rgb(192, 12, 84);
+}
+
+.left_1 {
+    background-color: rgba(36, 37, 37, 0.334);
+    top: 10px;
+    left: 10px;
+    position: relative;
+    border: 1px solid;
+    height: 230px;
+    width: 230px;
+}
+.left_1{
+border: 1px solid;
+}
+
+.left_2 {
+    background-color: rgba(36, 37, 37, 0.334);
+    left: 10px;
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    top: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    border: 1px solid;
+    height: 230px;
+    width: 230px;
+
+}
+
+.qq {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ww {
+    position: relative;
+    margin-right: 50px;
+}
+
+
+h3 {
+    margin-left: 20px;
+}
+
+.more {
+    position: absolute;
+    padding-left: 130px;
+    color: rgba(156, 17, 84, 0.974);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.cont_ridht {
+    display: block;
+
+}
+
+.ssl {
+    color: crimson;
+    text-decoration: underline;
+}
+
+.img{
+    list-style: none;
+}
+
+.img>ul>li {
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+    display: inline;
+}
+
+
+.spusok {
+    display: flex;
+}
+.spusok > div{
+    justify-content: space-between;
+    padding: 30px;
+}
+.spusok_1{
+    line-height: 1;
+}
+
+
+.spusok_3>ul>li {
+    list-style: none;
+}
+
+
+
+table,
+th,
+td {
+    width: 810px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(36, 37, 37, 0.334);
+}
+
+td {
+    background-color: rgba(36, 37, 37, 0.100);
+}
+.z{
+    display: flex;
+}
+.zz{
+    display: block;
+    margin-left: 100px;
+}
+
+input, form > input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input, select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form{
+    left: 0px;
+
+  }
+
+  .text  {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .button {
+    background-color: #af4c7fda;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.ff{
+margin: 0;
+  }
+
+

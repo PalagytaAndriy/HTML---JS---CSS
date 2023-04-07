@@ -1,0 +1,30 @@
+body {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color:rgb(232, 205, 71);
+}
+
+.btn {
+    width: 250px;
+}
+
+.t {
+    width: 250px;
+}
+
+label {
+    font-weight: bold;
+     }

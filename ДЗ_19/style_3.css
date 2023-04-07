@@ -1,0 +1,15 @@
+
+html , body {
+    height: 100%;
+}
+
+#ball{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: top 2s , left 2s;
+}

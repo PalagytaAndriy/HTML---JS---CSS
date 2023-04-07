@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        html , body {
+            height: 100%;
+        }
+
+        #ball {
+
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: top 2s, left 2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ball"></div>
+
+    <script>
+
+        document.body.onclick = function (eve) {
+
+            let ball = document.querySelector('#ball');
+            ball.style.top = eve.clientY + 'px';
+            ball.sryle.left = eve.clientX + 'px';
+        }
+    </script>
+
+</body>
+
+</html>

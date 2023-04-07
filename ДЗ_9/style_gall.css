@@ -1,0 +1,19 @@
+.left {
+    position: absolute;
+    margin-top: -630px;
+}
+
+.wrap {
+    position: relative;
+}
+
+.right {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 950px;
+
+}
+
+.font {
+    margin-left: -400px;
+}
